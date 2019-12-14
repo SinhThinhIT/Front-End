@@ -1,0 +1,91 @@
+.row {
+    background-color: red;
+    display: flex;
+}
+.col1 {
+    background: aquamarine;
+}
+.col2 {
+    background-color: yellow;
+}
+.col3 {
+    background: blue;
+}
+.col {
+    height: 80px;
+    float: left;
+    width: 33.33%;
+}
+#div-after-float {
+    background-color: pink;
+    margin-top: 20px;
+}
+/* CSS Display */
+h1 {
+    display: inline;
+}
+li {
+    display: inline;
+    padding: 10px;
+    background: #666;
+    margin-right: -4px;
+    border-right: 1px solid #000;
+}
+li:nth-child(3) {
+
+}
+li:last-child {
+    border-right: none;
+}
+/* CSS @Media */
+/* Mobile <768px tuong duong voi mobile,doi voi mau nen cho cac the li cua menu  */
+@media(max-width: 767px){
+    li {
+        background-color: red;
+    }
+}
+/* PC-> min-width:1024px
+Ipad min-width: 768px va max-width: 1023px
+Moblie->max-width:767px */
+@media(min-width: 768px)and (max-width: 1023px){
+
+}
+@media(min-width:1024px) {
+
+}
+/* CSS z-index */
+/* .index-item {
+    position: absolute;
+    top: 0;
+    left: 200px;
+} */
+.item1 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+.item2 {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+}
+.item3 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+/* CSS Overflow */
+#div-overflow {
+    background-color: red;
+    width: 30px;
+    overflow: hidden;
+    opacity: 0.5;
+}
+/* CSS transition */
+#a-transition {
+    padding: 15px;
+    transition: all 3s ease;
+}
+#a-transition:hover {
+    background-color: red;
+}
