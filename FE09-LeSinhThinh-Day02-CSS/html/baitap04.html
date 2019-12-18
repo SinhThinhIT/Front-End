@@ -1,26 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Example 04</title>
-    <link rel="stylesheet" href="../css/bt04.css">
+	<meta charset="utf-8"/>
+	<title>Example 04</title>
 </head>
+<style type="text/css" media="screen">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.container {
+		border: 5px solid #000000;
+		max-width: 705px;
+		margin: 40px auto;
+	}
+	.header, .row, .footer {
+		border: 5px solid #000000;
+		margin: 20px;
+	}
+	h1 {
+		text-align: center;
+	}
+	.row {
+		padding: 50px;
+		display: flex;
+	}
+	.col-md-3 {
+		/* border: 5px solid #000000; */
+		width: 30%;
+		float: left;
+		height: 136px;
+		padding: 0 20px;
+	}
+	.col-md-9 {
+		/* border: 5px solid #000000; */
+		width: 90%;
+		float: left;
+		height: 136px;
+		padding: 0 20px;
+	}
+	.sidebar , .content {
+		border: 5px solid #000000;
+		line-height: 136px;
+	}
+</style>
 <body>
-    <header>
-        <p>Header</p>
-    </header>
-    <section>
-        <div id="sidebar">
-            <p>Sidebar</p>
-        </div>
-        <div id="content">
-            <p>Content</p>
-        </div>
-    </section>
-    <footer>
-        <p>Footer</p>
-    </footer>
+	<div class="container">
+		<div class="header">
+			<h1>HEADER</h1>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="wraper">
+					<div class="sidebar">
+						<h1>SIDEBAR</h1>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-9">
+				<div class="wraper">
+					<div class="content">
+						<h1>CONTENT</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<h1>FOOTER</h1>
+		</div>
+	</div>
 </body>
 </html>

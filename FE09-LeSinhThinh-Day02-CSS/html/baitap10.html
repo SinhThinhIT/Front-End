@@ -1,21 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Example 10</title>
-    <link rel="stylesheet" href="../css/bt10.css">
+	<meta charset="utf-8" />
+	<title>Example 10</title>
 </head>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.content {
+		border: 1px solid black;
+		background-color: #CCCCFF;
+		font-family: Arial;
+		padding: 15px;
+		margin: 20px auto;
+		width: 50%;
+	}
+	.page h1 {
+		font-size: 45px;
+	}
+	.content-1 , .content-2 {
+		padding: 30px;
+	}
+	.content-1 span:first-child {
+		color: #4E0011;
+		font-weight: bolder;
+	}
+	.content-1 span:last-child {
+		color: #4E0011;
+		margin-left: 20px;
+	}
+	.content-2 span:first-child {
+		color: #070D9E;
+		font-weight: bolder;
+	}
+	.content-2 span:last-child {
+		color: #070D9E;
+		margin-left: 20px;
+	}
+</style>
 <body>
-    <div class="content-div">
-		<p class="font">Sample Dictionary </p>
-		<p class="font1 "> font-style </p>
-		<p class="padiing"> A CSS property which determines whether or not text is italicized.
-		<p class="font3">Href</p>
-		<p class="padiing1">An HTML attribute which specifice the URL that a link goes to.</p>
-		<p class="border-p font3">justify</p>
-		<p class="padiing border-p">A CSS value wich markes each line of text have aqual width</p>
+	<div class="content page">
+		<h1>Sample Dictionary</h1>
+		<div class="content-1">
+			<span>font-style</span> <br>
+			<span>A CSS property which determines whether or not text is italicized.</span>
+		</div>
+		<div class="content-2">
+			<span>href</span> <br>
+			<span>An HTML attribute which specifies the URL that a link goes to.</span>
+		</div>
+		<div class="content-1" style="border: 3px dashed black;padding: 20px;">
+			<span>justify</span> <br>
+			<span>A CSS value which makes each line of text have equal width.</span>
+		</div>
+		<div class="content-2">
+			<span>table</span> <br>
+			<span>An HTML tag which creates a table.</span>
+		</div>
 	</div>
 </body>
 </html>

@@ -1,30 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Example 08</title>
-    <link rel="stylesheet" href="../css/bt08.css">
-  </head>
-  <body>
-    <div>
-      <h1 class="text">HTML Practice Exercise</h1>
-      <p class="text"><u>Jame Madison University</u></p>
-      <hr />
-      <p>I love HTML because:</p>
-      <ol>
-        <li>I learnd it quickly</li>
-        <li>I can make web pages using code</li>
-        <li>It is fun</li>
-      </ol>
-      <hr />
-      <p>
-        My professor's e-mail address is
-        <a href="e-mail  ">clarketb@jmu.edu </a>
-      </p>
-      <p class="text2">Have a great day !</p>
-      <hr />
-    </div>
-  </body>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Example 08</title>
+</head>
+<style type="text/css" media="screen">
+	* {
+		margin: 0;
+	}
+	.page {
+		margin: 10px auto;
+	}
+	.heading {
+		text-align: center;
+	}
+	.nav, .footing {
+	    padding-left: 37%;
+	    padding-bottom: 10px;
+    	padding-top: 10px;
+	}
+	.footing {
+		padding-bottom: 40px;
+	}
+	.heading {
+		padding: 20px;
+	}
+	.heading p {
+		font-weight: bold;
+		font-size: 21px;
+	}
+	.footing p:nth-child(2) {
+		font-weight: bold;
+	}
+</style>
+<body>
+	<div class="page">
+		<div class="heading">
+		<h1>HTML Practive Exercise</h1>
+		<p><a href="#Link">James Madison University</a></p>
+	</div>
+	<hr />
+	<div class="nav">
+		<p>I love <i>HTML</i> because: </p>
+		<ol>
+			<li>I learned it quickly.</li>
+			<li>I can make web pages using code.</li>
+			<li>It is fun.</li>
+		</ol>
+	</div>
+	<hr />
+	<div class="footing">
+		<p>My Professor's email address is: <a href="#Link" title="claketb@jmu.edu">claketb@jmu.edu</a>.</p>
+		<p>Have a great day!</p>
+	</div>
+	<hr />
+	</div>
+</body>
 </html>

@@ -1,29 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Example 09</title>
-    <link rel="stylesheet" href="../css/bt09.css">
+	<meta charset="utf-8" />
+	<title>Example 09</title>
 </head>
+<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	.content {
+		background-color: yellow;
+		width: 50%;
+		margin: 20px auto;
+		height: auto;
+	}
+	.nav {
+		color: #87137A;
+		padding-left: 54px;
+	    padding-top: 30px;
+	    padding-bottom: 16px;
+	}
+	a {
+		text-decoration: none;
+	}
+	.wraper {
+		color: #87137A;
+		padding-bottom: 10px;
+		padding-left: 15px;
+	}
+	p {
+		margin-bottom: 15px; 
+	}
+	.special {
+		position: relative;
+		top: 3px;
+	}
+</style>
 <body>
-    <div class="content-div bd">
-        <section class="font">
-                    <ul>
-                <li>Home Page</li>
-                <li>Musings</li>
-                <li>My Town</li>
-                <li>Links</li>
-                    </ul>
-                </section>
-            <h1 class="font2">My First styled page </h1>
-            <p class="font3">Well come to my styled page !</p>
-            <p class="font3">It lacks images, but at it has style.And it has links,even if the don't go anywhere</p>
-            <p class="font3">There should be more here, but I don't know what yet.</p>
-            <p class="font3">Made 5April 2004</p>
-            <p class="font3"> by myself</p>
-    
-    </div>
+	<div class="content">
+		<div class="nav">
+			<ul>
+				<li><a href="#">Home page</a></li>
+				<li><a href="#">Musings</a></li>
+				<li><a href="#">My town</a></li>
+				<li><a href="#">Links</a></li>
+			</ul>
+		</div>
+		<div class="wraper">
+			<h1>My first styled page</h1>
+			<p>Welcome to my styled page!</p>
+			<p>It lacks imagé, but at least it has style. And it has links, event if they don't <br>go anywhere...</p>
+			<p>
+			Made <span class="special">5</span> Arpil 
+			<span class="special">2004</span> <i>by myself</i>.
+			</p>
+		</div>
+	</div>
 </body>
 </html>

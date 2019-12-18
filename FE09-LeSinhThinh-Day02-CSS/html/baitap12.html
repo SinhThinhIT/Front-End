@@ -1,34 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Example 12</title>
-    <style type="text/css">
-		th{
-			background-color: #cccccc;
-		}
-		.id{
-			background-color: #abe113;
-		}
-		table{
-			border: 1px solid #c0c0c0;
-			border-top: none;
-			border-right: none;
-			font-size: 20px;
-		}
-	</style>
+	<meta charset="utf-8" />
+	<title>Example 12</title>
 </head>
+<style type="text/css" media="screen">
+	table {
+		margin: 10px auto;
+	}
+	table,tr,th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	thead {
+		background-color: #CCCCCC;
+	}
+	tbody tr:nth-child(1),tr:nth-child(3),tr:nth-child(5) {
+		background-color: #ABE113;
+	}
+</style>
 <body>
-    <div class="content">
-		<table>
+	<table>
+		<caption>Example 12</caption>
+		<thead>
 			<tr>
-				<th>Id</th>
+				<th>ID</th>
 				<th>Name</th>
 				<th>Major</th>
 			</tr>
-			<tr class="id">
+		</thead>
+		<tbody>
+			<tr>
 				<td>1001</td>
 				<td>Gopl Murthy</td>
 				<td>Physics</td>
@@ -38,17 +40,17 @@
 				<td>Joy Sen</td>
 				<td>Economics</td>
 			</tr>
-			<tr class="id">
+			<tr>
 				<td>1003</td>
 				<td>Chandu Yadav</td>
 				<td>Chemistry</td>
 			</tr>
 			<tr>
 				<td>1004</td>
-				<td>Shalini</td>
+				<td>Shalani Gupta</td>
 				<td>Zoology</td>
 			</tr>
-			<tr class="id">
+			<tr>
 				<td>1004</td>
 				<td>Vivek Kumar</td>
 				<td>Math</td>
@@ -58,7 +60,7 @@
 				<td>Sameer Ali</td>
 				<td>Botany</td>
 			</tr>
-		</table>
-	</div>
+		</tbody>
+	</table>
 </body>
 </html>
